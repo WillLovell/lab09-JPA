@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Oct-2021, 11:44:05 AM
+    Author     : willi
+*/
+
+
+.checkbox{
+    color: white;
+}
+
+
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/* Style the counter cards */
+
+.card {
+    font-size: 125%;
+    margin-left: 5%;
+    padding: 3% 3% 3% 3%;
+
+}
+#saveBtn{
+    width: 100%;
+    color: white;
+    background-color: blue;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2%;
+    font-size: 100%;
+    box-shadow: 2px 2px 2px white;
+    text-shadow: black 2px 2px 2px;
+}
+#saveBtn:hover{
+    width: 100%;
+    color: black;
+    background-color: green;
+    cursor: pointer;
+    padding: 2% 2% 2% 2%;
+    font-size: 100%;
+    box-shadow: 2px 2px 2px orange;
+    text-shadow: white 2px 2px 2px;
+}
+#error{
+    color: red;
+}
+#edit{
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+#cancelBtn{
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 2% 2% 2% 2%;
+    font-size: 100%;
+    box-shadow: 2px 2px 2px white;
+    text-shadow: black 2px 2px 2px;
+}
+#cancelBtn:hover{
+    width: 100%;
+    background-color:rgb(100,0,0);
+    color: white;
+    cursor: pointer;
+    padding: 2% 2% 2% 2%;
+    box-shadow: 2px 2px 2px orange;
+    text-shadow: black 2px 2px 2px;
+}
+.input{
+    width: 97.27%;
+    background-color:rgb(50,50,50);
+    color: white;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 1%;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.dropdown{
+    width: 100%;
+    background-color:rgb(50,50,50);
+    color: white;
+    padding: 1% 1% 1% 1%;
+}
+#background{
+
+}
+.headers{
+    align-content: center; text-align: center; color: orange;  
+    background-color: rgba(255,255,255,0.25);
+    text-shadow: black 2px 2px 2px;
+    box-shadow: 2px 2px 7px black;
+}
+body{
+    background-image: url('halloween.png'); background-size: 100%;
+    font-family:sans-serif;
+}
+.manage{ 
+    background-color: rgb(50,50,50); 
+    width: 100%;
+    display:compact;
+    text-shadow: black 2px 2px 2px;
+
+}
+.checkbox{
+    color: white; background-color: rgb(50,50,50);
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 1% 1% 1% 1%;
+}
+td{
+    color: white;
+    padding-bottom: 10px;
+
+
+}
+th{
+    color: white;
+
+}
+a{
+    text-decoration: none;
+
+}
+tr{
+    color: red;
+}
+
